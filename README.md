@@ -1,4 +1,9 @@
 # node-dev-template
+## Install Nodemon
+```
+$ npm install -g nodemon
+```
+
 ## Setup
 ```
 $ cd desktop
