@@ -1,0 +1,26 @@
+{
+  "name": "node-dev-template",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Taiki Yoshikawa"
+  ],
+  "license": "MIT",
+  "homepage": "http://tyoshikawa1106.github.io/",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-route": "1.4.x",
+    "angular-messages": "1.4.x",
+    "jsforce" : "1.6.x",
+    "jquery": "~2.1.x"
+  }
+}
