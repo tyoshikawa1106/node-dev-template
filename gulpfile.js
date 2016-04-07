@@ -4,8 +4,8 @@ var autoprefixer = require("gulp-autoprefixer");
 var uglify = require("gulp-uglify");
 
 gulp.task("default", ['setup'], function() {
-  gulp.watch(["./public/javascripts/**/*.js","!./public/javascripts/min/**/*.js"],["js"]);
-  gulp.watch("./public/stylesheets/sass/**/*.scss",["sass"]);
+  gulp.watch(["public/javascripts/**/*.js","!public/javascripts/min/**/*.js"],["js"]);
+  gulp.watch("public/stylesheets/sass/**/*.scss",["sass"]);
 });
 
 gulp.task("setup", ['sass','js','slds-copy']);
